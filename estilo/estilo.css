@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Muli', sans-serif;
+}
+
+#menu ul{
+    margin: 0;
+    background-color: black;
+    list-style: none;
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a{
+    padding: 20px 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    vertical-align: auto;
+    margin-bottom: 40px;
+}
+
+.content-table{
+    border-collapse: collapse;
+    font-size: 0.9em;
+    min-width: 400px;
+    text-align: center;
+}
+
+.content-table thead tr{
+    background-color: teal;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.content-table th, .content-table td{
+    padding: 15px 15px;
+}
+
+.content-table tbody tr{
+    border: 1px solid aliceblue;
+}
